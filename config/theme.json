@@ -1,0 +1,55 @@
+{
+    "name" : "ThemesGuide",
+    "description" : "ThemesGuide themes for Croogo",
+    "screenshot" : "img/screenshot.jpg",
+
+    "author" : "Xintesa Team",
+    "authorEmail" : "oss@xintesa.com",
+    "authorUrl" : "http://xintesa.com",
+
+    "isBackendTheme": false,
+
+    "menus" : [
+        "main",
+        "footer"
+    ],
+
+    "regions" : [
+        "right"
+    ],
+
+    "settings": {
+
+        "prefixes": {
+            "admin": {
+                "helpers": {
+                    "Html": {
+                        "className": "Croogo/Core.CroogoHtml",
+                        "templates": {
+                            "beginbox": "<div class='panel'><div class='panel-hdr'><h2><span class='icon-stack mr-2'>{{icon}}</span>{{title}}</h2><div class='panel-toolbar'><a href='javascript:void()' class='btn-panel bg-transparent fs-xl w-auto h-auto rounded-0 btn' data-action='panel-fullscreen'><i class='fal fa-expand fa-sm'></i></a></div></div><div class='panel-container'><div class='panel-content'>",
+                            "endbox": "</div></div></div>"
+                        }
+                    }
+                }
+            }
+        },
+
+        "css": {
+            "boxContainerClass": "panel",
+            "boxHeaderClass": "panel-hdr",
+            "boxBodyClass": "panel-content",
+            "tableContainerClass": "w-100",
+            "tabContentClass": "tab-content pt-3"
+        },
+
+        "select2Defaults": {
+            "dropdownAutoWidth": true
+        },
+
+        "iconDefaults": {
+            "iconSet": "fal",
+            "prefix": "fa"
+        }
+
+    }
+}
